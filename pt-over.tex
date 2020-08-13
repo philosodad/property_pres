@@ -1,0 +1,26 @@
+\begin{frame}
+  \frametitle{Parts of a Property Test}
+  \begin{block}{Invariants}
+    Defines what is always true about the output.
+
+    Examples:
+    \begin{itemize}
+      \item In a sorted list, every item is <= the next item.
+      \item An html document is enclosed by \texttt{<html><\textbackslash html>} tags.
+    \end{itemize}
+  \end{block}
+  \begin{block}{Generators}
+    Defines the edges of the input.
+
+    Examples:
+    \begin{itemize}
+      \item a list of integers
+      \item a valid http request
+    \end {itemize}
+  \end{block}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Property Testing Framework}
+  A property testing framework should provide \emph{generators}, a way to create new generators, and run inputs based on those generators against defined \emph{invariants}.
+\end{frame}

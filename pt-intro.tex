@@ -1,0 +1,37 @@
+\begin{frame}
+  \frametitle{Why Do We Test}
+  \begin{block}{The Sixth Law of Software Design}
+    The degree to which you know how your software behaves is the degree to which you have accurately tested it.
+
+    - Max Kanat-Alexander, ``Code Simplicity''
+  \end{block}
+  \begin{itemize}
+    \item Testing captures intent
+    \item Testing verifies behavior
+    \item Test cases define the edges of behavior 
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Typical Types of Testing}
+  \begin{description}
+    \item [Unit] Test behavior of individual functions
+    \item [Integration] Test interaction of modules
+    \item [Behavior] Test system inputs/outputs 
+  \end{description}
+  \begin{block}{Limitations of Testing}
+    In all types of test, it is up to the test writer to determine the test cases.
+  \end{block}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Good Practices in Testing}
+  \begin{itemize}
+    \item Avoid hard coded values
+    \item Look for edge cases
+    \item Make tests documentary
+  \end{itemize}
+  \begin{block}{Property Based Testing}
+    Works by defining what the code should do and letting the system generate cases.
+  \end{block}
+\end{frame}

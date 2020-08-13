@@ -1,0 +1,24 @@
+\begin{frame}
+  \frametitle{Example Problem}
+  \begin{block}{Partiphification}
+    We have \emph{n} jobs to distribute over \emph{m} processes. Our goal is to write a function that partitions the jobs equally.
+    \begin{enumerate}
+      \item Jobs are input as an array
+      \item We want the array split into subarrays
+      \item The split should be as even as possible
+      \item The function should be as generic as possible
+    \end{enumerate}
+  \end{block}
+  \begin{block}{Invariants}
+    \begin{itemize}
+      \item We should have \emph{m} sublists
+      \item Every job should be in a sublist
+      \item Every job should appear once in all sublists
+      \item The length of every sublist should be +-1 of any other
+    \end{itemize}
+  \end{block}
+\end{frame}
+\begin{frame}
+  \frametitle{Example Code}
+  It's time to look at some code!
+\end{frame}
